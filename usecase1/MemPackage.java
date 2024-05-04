@@ -1,8 +1,9 @@
+package usecase1;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-class MemPackage {
+public class MemPackage {
     private String packName;
     private String duration;
     private Branch branch;
@@ -42,4 +43,6 @@ class MemPackage {
     public void addServicesDiscounts(String service, Integer discount){
         servicesDiscounts.put(service, discount.toString() + "%");
     }
+
+    
 }

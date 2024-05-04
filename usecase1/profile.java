@@ -55,8 +55,8 @@ class UserProfile extends profile{
     private double UserCalories;
     private float OldWeights;
     private float NewWeights;
+    private MemPackage UserPackage;
 
-    
     public UserProfile(String username, String email, String password,float weight, int height, int age, boolean isMale){
         super(username,email,password);
         this.height = height;
