@@ -5,7 +5,7 @@ import java.io.IOException;
 public class login {
 
 
-    private static final String csvFile = "SocialMediaPlatform\\registered_users.csv";
+    private static final String csvFile = "GYM-Desktop-App\\registered_users.csv";
 
     public static profile loginUser(String username, String password) {
         try (BufferedReader reader = new BufferedReader(new FileReader(csvFile))) {

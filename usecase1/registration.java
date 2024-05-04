@@ -11,7 +11,7 @@ import java.util.regex.Matcher;
 
 public class registration {
 
-    private static final String csvFile = "SocialMediaPlatform\\registered_users.csv";
+    private static final String csvFile = "GYM-Desktop-App\\registered_users.csv";
 
     public static void registerUser(String username, String password, String email){
         
