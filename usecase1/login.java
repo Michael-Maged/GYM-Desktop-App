@@ -7,12 +7,12 @@ public class login {
 
     private static final String csvFile = "GYM-Desktop-App\\registered_users.csv";
 
-    public static profile loginUser(String username, String password) {
+    public static profile loginUser(Integer ID, String password) {
         try (BufferedReader reader = new BufferedReader(new FileReader(csvFile))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] userData = line.split(",");
-                if (userData[0].equals(username.toLowerCase()) && userData[2].equals(password)) {
+                if ((userData[0].equals(ID.toString())) && userData[2].equals(password)) {
                     System.out.println("Successful Login");
                     return new profile(userData[0], userData[1], userData[2]);
                 }

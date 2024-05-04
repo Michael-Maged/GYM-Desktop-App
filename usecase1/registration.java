@@ -13,18 +13,8 @@ public class registration {
 
     private static final String csvFile = "GYM-Desktop-App\\registered_users.csv";
 
-    public static void registerUser(String username, String password, String email){
+    public static void registerUser(int ID, String password, String email){
         
-        if (username.contains(" ")) {
-            System.out.println("Username cannot contain spaces");
-            return;
-        }
-
-        if (usernameTaken(username)){
-            System.out.println("Username already taken");
-            return;
-        }
-
         if (!verifyEmail(email)){
             return;
         }
@@ -36,32 +26,15 @@ public class registration {
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(csvFile, true))) {
             if (new File(csvFile).length() == 0) {
-                writer.write("Username,Email,Password\n");
+                writer.write("ID,Email,Password\n");
             }
-            writer.write(username.toLowerCase() + "," + email + "," + password + "\n");
+            writer.write(ID + "," + email + "," + password + "\n");
             System.out.println("User registered successfully");
         } 
         catch (IOException e){
             System.out.println("Error occurred while registering user");
             e.printStackTrace();
         }
-    }
-
-    private static boolean usernameTaken(String username) {
-        try (BufferedReader reader = new BufferedReader(new FileReader(csvFile))) {
-            String line;
-            while ((line = reader.readLine()) != null) {
-                String[] userData = line.split(",");
-                if (userData[0].equals(username)) {
-                    return true;
-                }
-            }
-        } 
-        catch (IOException e) {
-            System.out.println("Error occurred while checking username");
-            e.printStackTrace();
-        }
-        return false;
     }
 
     private static boolean verifyEmail(String email) {

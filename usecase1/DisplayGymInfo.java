@@ -1,3 +1,4 @@
+package usecase1;
 import java.util.List;
 
 class DisplayGymInfo {

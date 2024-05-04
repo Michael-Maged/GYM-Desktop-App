@@ -1,20 +1,20 @@
 package usecase1;
 
 public class profile {
-    private String username;
+    private String Name;
     private String password;
     private String email;
     private String profilePicture;
 
 
-    public profile(String username, String email, String password) {
-        this.username = username;
+    public profile(String Name, String email, String password) {
+        this.Name = Name;
         this.email = email;
         this.password = password;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setName(String Name) {
+        this.Name = Name;
     }
 
     public void setPassword(String password){
@@ -29,8 +29,8 @@ public class profile {
         this.profilePicture = profilePicture;
     }
     
-    public String getUsername() {
-        return this.username;
+    public String getName() {
+        return this.Name;
     }
 
     public String getPassword(){
@@ -48,6 +48,8 @@ public class profile {
 }
 
 class UserProfile extends profile{
+    private static int ID_Counter = 1;
+    private int ID;
     private float weight;
     private int height;
     private int age;
@@ -63,6 +65,8 @@ class UserProfile extends profile{
         this.weight = weight;
         this.age = age;
         this.isMale = isMale;
+        this.ID = ID_Counter;
+        ID_Counter ++ ;
     }
     public void setheight(int height) {
         this.height = height;
@@ -105,7 +109,11 @@ class UserProfile extends profile{
         return isMale;
     }
 
-
+    public int gatID()
+    {
+        return ID;
+    }
+    
     public void calcCalories(float weight,int height ,int age, boolean isMale){
         if(isMale){
             UserCalories = ((10*weight) + (6.25*height) - (5*age) + 5);
@@ -123,6 +131,7 @@ class UserProfile extends profile{
     public float trackProgress (){
         return (this.NewWeights - this.OldWeights);
     }
+
 }
 
 class TrainerProfile extends profile{
