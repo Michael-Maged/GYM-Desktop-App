@@ -11,7 +11,6 @@ public class NutritionalFacts {
         this.fat = fat;
     }
 
-    // Getters and setters
     public int getCalories() {
         return calories;
     }

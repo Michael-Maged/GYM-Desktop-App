@@ -15,7 +15,6 @@ public class Recipe {
         this.instructions = instructions;
     }
 
-    // Getters and setters
     public String getName() {
         return name;
     }
