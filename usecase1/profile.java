@@ -53,6 +53,9 @@ class UserProfile extends profile{
     private int age;
     private boolean isMale; 
     private double UserCalories;
+    private float OldWeights;
+    private float NewWeights;
+
     
     public UserProfile(String username, String email, String password,float weight, int height, int age, boolean isMale){
         super(username,email,password);
@@ -76,6 +79,16 @@ class UserProfile extends profile{
     public void setisMale(boolean isMale) {
         this.isMale = isMale;
     }
+
+    public void setOldWeights(float OldWeights){
+        this.OldWeights = OldWeights;
+    }
+
+    public void setNewWeight(float Newweight){
+        this.OldWeights = this.NewWeights;
+        this.NewWeights = Newweight;
+    }
+
     public int getheight() {
         return height;
     }
@@ -92,6 +105,7 @@ class UserProfile extends profile{
         return isMale;
     }
 
+
     public void calcCalories(float weight,int height ,int age, boolean isMale){
         if(isMale){
             UserCalories = ((10*weight) + (6.25*height) - (5*age) + 5);
@@ -105,12 +119,16 @@ class UserProfile extends profile{
     public double getUserCalories(){
         return UserCalories;
     }
+
+    public float trackProgress (){
+        return (this.NewWeights - this.OldWeights);
+    }
 }
 
 class TrainerProfile extends profile{
     private int YearsOfExperience;
     private String specialties;
-    
+
     public TrainerProfile(String username, String email, String password, int YearsOfExperience, String specialties){
         super(username,email,password);
         this.YearsOfExperience = YearsOfExperience;
