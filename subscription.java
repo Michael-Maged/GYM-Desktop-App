@@ -1,11 +1,11 @@
 
-public class Subscription {
+public class subscription {
     private String type ; 
     private double  price ; 
     private String method ;
     private boolean confirmation ; 
      
-    public Subscription (String type , double price  , String method ) {
+    public subscription(String type , double price  , String method ) {
         this.type = type ; 
         this.price =  price  ; 
         this.method = method ; 
