@@ -20,7 +20,7 @@
    <left>
       <VBox alignment="CENTER" prefHeight="810.0" prefWidth="250.0" spacing="100.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
          <children>
-            <Hyperlink alignment="CENTER" text="Hyperlink">
+            <Hyperlink fx:id="myprofileLink" alignment="CENTER" text="Hyperlink" onAction="#handlemyprofileLink" >
                <graphic>
                   <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
                      <children>
@@ -83,7 +83,7 @@
                               <ColorAdjust brightness="0.5" />
                            </effect>
                         </ImageView>
-                        <Label prefHeight="18.0" prefWidth="136.0" text="Membership">
+                        <Label fx:id="membershipLink" prefHeight="18.0" prefWidth="136.0" text="Membership" onAction="#handlemembershipLink">
                            <font>
                               <Font size="16.0" />
                            </font>
@@ -100,7 +100,7 @@
             </Hyperlink>
             <Hyperlink text="Hyperlink">
                <graphic>
-                  <HBox alignment="CENTER" spacing="30.0">
+                  <HBox fx:id="ourgymLink" alignment="CENTER" spacing="30.0" onAction="#handleourgymLink">
                      <children>
                         <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                            <image>
