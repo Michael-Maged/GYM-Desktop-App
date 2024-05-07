@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="581.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+   <right>
+      <AnchorPane prefHeight="700.0" prefWidth="300.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="emailField" layoutX="76.0" layoutY="282.0" promptText="Email" style="-fx-background-color: #FAFAFA; -fx-border-color: transparent; -fx-background-radius: 10;" />
+            <ImageView fitHeight="110.0" fitWidth="110.0" layoutX="97.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../GymApp%20extras/profile.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="114.0" layoutY="191.0" text="LOGIN">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="loginButton" layoutX="111.0" layoutY="402.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="40.0" prefWidth="81.0" style="-fx-background-color: #000000;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Hyperlink fx:id="registerLink" layoutX="13.0" layoutY="545.0" onAction="#handleRegisterLink" text="Don't have an account?" />
+            <Hyperlink fx:id="resetPassLink" alignment="CENTER" contentDisplay="CENTER" layoutX="102.0" layoutY="454.0" onAction="#handlePassReset" text="Forgot Password?" />
+            <PasswordField fx:id="passField" layoutX="76.0" layoutY="320.0" promptText="Password" style="-fx-background-color: #FAFAFAFA; -fx-border-color: transparent; -fx-background-radius: 10;" />
+            <Label fx:id="errorLabel" layoutX="78.0" layoutY="352.0" textFill="RED" />
+         </children>
+      </AnchorPane>
+   </right>
+   <center>
+      <AnchorPane prefHeight="700.0" prefWidth="300.0" style="-fx-background-color: #FAFAFA;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="587.0" fitWidth="419.0" layoutX="-28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/7329234.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

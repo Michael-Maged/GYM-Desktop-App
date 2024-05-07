@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1315.0" style="-fx-background-color: #FFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OurGymController">
+   <left>
+      <VBox alignment="CENTER" prefHeight="810.0" prefWidth="250.0" spacing="100.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
+         <children>
+            <Hyperlink alignment="CENTER" text="Hyperlink">
+               <graphic>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
+                     <children>
+                        <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../AppData/Local/Microsoft/Windows/GymApp%20extras/profile.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="18.0" prefWidth="136.0" text="My Profile">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <effect>
+                        <ColorAdjust />
+                     </effect>
+                  </HBox>
+               </graphic>
+            </Hyperlink>
+            <Hyperlink text="Hyperlink">
+               <graphic>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
+                     <children>
+                        <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../AppData/Local/Microsoft/Windows/GymApp%20extras/6286157.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </ImageView>
+                        <Label prefHeight="18.0" prefWidth="136.0" text="Eat Healthy">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </HBox>
+               </graphic>
+            </Hyperlink>
+            <Hyperlink text="Hyperlink">
+               <graphic>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
+                     <children>
+                        <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../AppData/Local/Microsoft/Windows/GymApp%20extras/3951241.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </ImageView>
+                        <Label prefHeight="18.0" prefWidth="136.0" text="Membership">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </HBox>
+               </graphic>
+            </Hyperlink>
+            <Hyperlink text="Hyperlink">
+               <graphic>
+                  <HBox alignment="CENTER" spacing="30.0">
+                     <children>
+                        <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../AppData/Local/Microsoft/Windows/GymApp%20extras/gym.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </ImageView>
+                        <Label prefHeight="18.0" prefWidth="136.0" text="Our Gym">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                           <effect>
+                              <ColorAdjust />
+                           </effect>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="35.0" />
+                     </padding>
+                  </HBox>
+               </graphic>
+            </Hyperlink>
+         </children>
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+         <BorderPane.margin>
+            <Insets top="5.0" />
+         </BorderPane.margin>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #FAFAFAFA;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="" prefHeight="43.0" prefWidth="230.0" text="MECHANIX GYM">
+               <VBox.margin>
+                  <Insets left="50.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="29.0" />
+               </font>
+            </Label>
+            <HBox prefHeight="235.0" prefWidth="995.0">
+               <VBox.margin>
+                  <Insets left="30.0" right="30.0" />
+               </VBox.margin>
+               <children>
+                  <VBox prefHeight="222.0" prefWidth="265.0" style="-fx-background-radius: 20; -fx-background-color: #FFFFFF;">
+                     <children>
+                        <AnchorPane prefHeight="29.0" prefWidth="265.0">
+                           <children>
+                              <Label layoutX="24.0" layoutY="22.0" text="LOCATIONS">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="205.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../AppData/Local/Microsoft/Windows/GymApp%20extras/characteristics.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="46.0" fitWidth="56.0" layoutX="182.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../535188.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <HBox prefHeight="40.0" prefWidth="266.0">
+                           <children>
+                              <Label prefHeight="27.0" prefWidth="96.0" text="Obour">
+                                 <HBox.margin>
+                                    <Insets left="40.0" top="10.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <AnchorPane prefHeight="30.0" prefWidth="132.0">
+                                 <children>
+                                    <Hyperlink layoutX="8.0" layoutY="14.0" prefHeight="24.0" prefWidth="110.0" text="https://maps.app.goo.gl/SELfZssTsrY13W4b6" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="52.0" prefHeight="40.0" prefWidth="266.0">
+                           <children>
+                              <Label text="Sheraton">
+                                 <HBox.margin>
+                                    <Insets left="40.0" top="10.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <AnchorPane prefHeight="30.0" prefWidth="132.0">
+                                 <children>
+                                    <Hyperlink layoutX="31.0" layoutY="14.0" prefHeight="24.0" prefWidth="110.0" text="https://maps.app.goo.gl/c1KJCU6dLhgfoCJ26" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="92.0" prefHeight="40.0" prefWidth="266.0">
+                           <children>
+                              <Label text="New Cairo">
+                                 <HBox.margin>
+                                    <Insets left="40.0" top="10.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <AnchorPane prefHeight="40.0" prefWidth="126.0">
+                                 <children>
+                                    <Hyperlink layoutX="21.0" layoutY="14.0" prefHeight="24.0" prefWidth="110.0" text="https://maps.app.goo.gl/4J4DWeGXMKPYjbbt8" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="132.0" prefHeight="40.0" prefWidth="266.0">
+                           <children>
+                              <Label text="Katameya">
+                                 <HBox.margin>
+                                    <Insets left="40.0" top="10.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <AnchorPane prefHeight="40.0" prefWidth="144.0">
+                                 <children>
+                                    <Hyperlink layoutX="26.0" layoutY="14.0" prefHeight="24.0" prefWidth="109.0" text="https://maps.app.goo.gl/gCxMX6JJ765My1cq7" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="10.0" prefHeight="222.0" prefWidth="265.0" style="-fx-background-radius: 20; -fx-background-color: #FFFFFF;">
+                     <HBox.margin>
+                        <Insets left="105.0" />
+                     </HBox.margin>
+                     <children>
+                        <AnchorPane prefHeight="29.0" prefWidth="265.0">
+                           <children>
+                              <Label layoutX="24.0" layoutY="22.0" text="Working Hours">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="205.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../AppData/Local/Microsoft/Windows/GymApp%20extras/3951241.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="46.0" fitWidth="56.0" layoutX="197.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../114535.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="188.0" prefWidth="265.0">
+                           <children>
+                              <Label layoutX="28.0" layoutY="22.0">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                              <SplitPane prefHeight="184.0" prefWidth="269.0" visible="false" />
+                              <Label layoutX="12.0" layoutY="8.0" text="Official Holidays:" AnchorPane.leftAnchor="12.0">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <effect>
+                                    <ColorAdjust brightness="-1.0" />
+                                 </effect>
+                              </Label>
+                              <Label layoutX="14.0" layoutY="49.0" text="Coptic Christmas Day" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="45.0" />
+                              <Label layoutX="14.0" layoutY="83.0" text="Revolution and National Police Day" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="70.0" />
+                              <Label layoutX="14.0" layoutY="109.0" text="Eid Al-Fitr" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="95.0" />
+                              <Label layoutX="14.0" layoutY="134.0" text="Sinai Liberation Day" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="120.0" />
+                              <Label layoutX="14.0" layoutY="152.0" text="Labor Day" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="140.0" />
+                              <Label layoutX="14.0" layoutY="165.0" text="Sham El-Nessim" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="160.0" />
+                              <Label layoutX="242.0" layoutY="45.0" text="7/1" AnchorPane.rightAnchor="5.0" />
+                              <Label layoutX="237.0" layoutY="71.0" text="25/1" AnchorPane.rightAnchor="5.0" />
+                              <Label layoutX="237.0" layoutY="95.0" text="9/4 -- 14/4" AnchorPane.rightAnchor="5.0" />
+                              <Label layoutX="237.0" layoutY="120.0" text="25/4" AnchorPane.rightAnchor="5.0" />
+                              <Label layoutX="246.0" layoutY="140.0" text="5/5" AnchorPane.rightAnchor="5.2000000000000455" />
+                              <Label layoutX="246.0" layoutY="160.0" text="6/5" AnchorPane.rightAnchor="5.2000000000000455" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="296.0" layoutY="10.0" prefHeight="222.0" prefWidth="265.0" style="-fx-background-radius: 20; -fx-background-color: #FFFFFF;">
+                     <HBox.margin>
+                        <Insets left="105.0" />
+                     </HBox.margin>
+                     <children>
+                        <AnchorPane prefHeight="29.0" prefWidth="265.0">
+                           <children>
+                              <Label layoutX="24.0" layoutY="22.0" text="FACILITIES">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="205.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../AppData/Local/Microsoft/Windows/GymApp%20extras/4257339.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <AnchorPane layoutY="-6.0" prefHeight="200.0" prefWidth="263.0">
+                                 <children>
+                                    <ImageView fitHeight="38.0" fitWidth="43.0" layoutX="7.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="7.0">
+                                       <image>
+                                          <Image url="@../2932366.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="67.0" layoutY="23.0" text="Swimming Pool">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="38.0" fitWidth="43.0" layoutX="7.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="7.0">
+                                       <image>
+                                          <Image url="@../5900037.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="67.0" layoutY="68.0" text="Sauna">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="38.0" fitWidth="43.0" layoutX="7.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="7.0">
+                                       <image>
+                                          <Image url="@../11954189.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="65.0" layoutY="113.0" text="FIttnes">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="38.0" fitWidth="43.0" layoutX="7.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="7.0">
+                                       <image>
+                                          <Image url="@../12156098.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="67.0" layoutY="158.0" text="Zumba">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </VBox>
+               </children>
+               <effect>
+                  <ColorAdjust brightness="-0.13" />
+               </effect>
+            </HBox>
+            <ScrollPane fitToHeight="true" fitToWidth="true" prefHeight="218.0" prefWidth="1065.0">
+               <content>
+                  <HBox prefHeight="198.0" prefWidth="1380.0">
+                     <children>
+                        <ImageView fitHeight="230.0" fitWidth="305.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../WhatsApp%20Image%202024-05-07%20at%2013.56.47_6d4576d3.jpg" />
+                           </image>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </ImageView>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                        <ImageView fitHeight="230.0" fitWidth="305.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../WhatsApp%20Image%202024-05-07%20at%2013.56.47_7c2021a9.jpg" />
+                           </image>
+                        </ImageView>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                        <ImageView fitHeight="230.0" fitWidth="305.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../WhatsApp%20Image%202024-05-07%20at%2013.56.47_ccd984bc.jpg" />
+                           </image>
+                        </ImageView>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                        <ImageView fitHeight="230.0" fitWidth="340.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../WhatsApp%20Image%202024-05-07%20at%2014.18.29_6542a623.jpg" />
+                           </image>
+                        </ImageView>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                        <ImageView fitHeight="205.0" fitWidth="335.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../WhatsApp%20Image%202024-05-07%20at%2014.18.29_584636ac.jpg" />
+                           </image>
+                        </ImageView>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                        <ImageView fitHeight="235.0" fitWidth="340.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../WhatsApp%20Image%202024-05-07%20at%2014.18.29_d33c8dee.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+               </content>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </ScrollPane>
+            <AnchorPane prefHeight="187.0" prefWidth="1065.0">
+               <children>
+                  <Label fx:id="1" layoutX="44.0" layoutY="14.0" prefHeight="43.0" prefWidth="224.0" text="OUR TRAINERS">
+                     <font>
+                        <Font name="System Bold Italic" size="29.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="14.0" layoutY="57.0" prefHeight="137.0" prefWidth="474.0">
+                     <children>
+                        <AnchorPane prefHeight="129.0" prefWidth="475.0">
+                           <children>
+                              <ImageView fitHeight="134.0" fitWidth="136.0" layoutX="338.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../5508686.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="21.0" layoutY="14.0" text="NAME:" AnchorPane.leftAnchor="10.0" />
+                              <Label layoutX="10.0" layoutY="43.0" text="EMAIL:" />
+                              <Label layoutX="10.0" layoutY="68.0" text="PHONE NUMBER:" />
+                              <Label layoutX="10.0" layoutY="92.0" text="SPECIALTY:" />
+                              <Label layoutX="10.0" layoutY="118.0" text="YEARS OF EXPERINCE: " />
+                              <Label layoutX="197.0" layoutY="15.0" text="Label" />
+                              <Label layoutX="197.0" layoutY="43.0" text="Label" />
+                              <Label layoutX="197.0" layoutY="68.0" text="Label" />
+                              <Label layoutX="197.0" layoutY="92.0" text="Label" />
+                              <Label layoutX="197.0" layoutY="118.0" text="Label" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="576.0" layoutY="57.0" prefHeight="137.0" prefWidth="474.0">
+                     <children>
+                        <AnchorPane prefHeight="129.0" prefWidth="475.0">
+                           <children>
+                              <ImageView fitHeight="134.0" fitWidth="136.0" layoutX="338.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../5508686.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="21.0" layoutY="14.0" text="NAME:" AnchorPane.leftAnchor="10.0" />
+                              <Label layoutX="10.0" layoutY="43.0" text="EMAIL:" />
+                              <Label layoutX="10.0" layoutY="68.0" text="PHONE NUMBER:" />
+                              <Label layoutX="10.0" layoutY="92.0" text="SPECIALTY:" />
+                              <Label layoutX="10.0" layoutY="118.0" text="YEARS OF EXPERINCE: " />
+                              <Label layoutX="197.0" layoutY="15.0" text="Label" />
+                              <Label layoutX="197.0" layoutY="43.0" text="Label" />
+                              <Label layoutX="197.0" layoutY="68.0" text="Label" />
+                              <Label layoutX="197.0" layoutY="92.0" text="Label" />
+                              <Label layoutX="197.0" layoutY="118.0" text="Label" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </Pane>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin></AnchorPane>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

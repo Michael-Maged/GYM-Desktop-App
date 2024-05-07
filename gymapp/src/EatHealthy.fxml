@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1315.0" style="-fx-background-color: #FFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserProfileController">
+   <left>
+      <VBox alignment="CENTER" prefHeight="810.0" prefWidth="250.0" spacing="100.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
+         <children>
+            <Hyperlink alignment="CENTER" text="Hyperlink">
+               <graphic>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
+                     <children>
+                        <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../GymApp%20extras/profile.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="18.0" prefWidth="136.0" text="My profile ">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <effect>
+                        <ColorAdjust />
+                     </effect>
+                  </HBox>
+               </graphic>
+            </Hyperlink>
+            <Hyperlink text="Hyperlink">
+               <graphic>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
+                     <children>
+                        <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../GymApp%20extras/6286157.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </ImageView>
+                        <Label prefHeight="18.0" prefWidth="136.0" text="Eat healthy ">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </HBox>
+               </graphic>
+            </Hyperlink>
+            <Hyperlink text="Hyperlink">
+               <graphic>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
+                     <children>
+                        <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../GymApp%20extras/3951241.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </ImageView>
+                        <Label prefHeight="18.0" prefWidth="136.0" text="Membership">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </HBox>
+               </graphic>
+            </Hyperlink>
+            <Hyperlink text="Hyperlink">
+               <graphic>
+                  <HBox alignment="CENTER" spacing="30.0">
+                     <children>
+                        <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../GymApp%20extras/gym.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </ImageView>
+                        <Label prefHeight="18.0" prefWidth="136.0" text="Our Gym">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="35.0" />
+                     </padding>
+                  </HBox>
+               </graphic>
+            </Hyperlink>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="791.0" prefWidth="1041.0" style="-fx-background-color: #FAFAFAFA;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="" prefHeight="43.0" prefWidth="215.0" text="Here to achive ">
+               <VBox.margin>
+                  <Insets left="50.0" top="50.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="29.0" />
+               </font>
+            </Label>
+            <AnchorPane prefHeight="661.0" prefWidth="1065.0">
+               <children>
+                  <Label layoutX="499.0" layoutY="13.0" text="Healthy recipes for you">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="32.0" layoutY="54.0" text="Breakfast meals :">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="178.0" fitWidth="154.0" layoutX="5.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="380.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="946.1333358764648">
+                     <image>
+                        <Image url="@../../../../../Pictures/Camera%20Roll/greek-yogurt-3.jpg" />
+                     </image>
+                  </ImageView>
+                  <TextField layoutX="129.0" layoutY="112.0" stylesheets="@style.css" text="&lt;&lt; Greek Yogurt Parfait">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextField>
+                  <TextArea layoutX="129.0" layoutY="147.0" prefHeight="57.0" prefWidth="220.0" stylesheets="@style.css" text="Carbohydrates: Around 7-10 grams&#10;Protein: Around 15-20 grams">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextArea>
+                  <Separator layoutX="378.0" layoutY="-2.0" orientation="VERTICAL" prefHeight="660.0" prefWidth="4.0" />
+                  <Separator layoutX="753.0" layoutY="4.0" orientation="VERTICAL" prefHeight="660.0" prefWidth="4.0" />
+                  <Label layoutX="418.0" layoutY="54.0" text="Lunch meals :">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="832.0" layoutY="54.0" text="Dinner meals :">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="182.0" fitWidth="118.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/WhatsApp%20Image%202024-05-07%20at%2010.01.21%20PM.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Separator layoutX="2.0" layoutY="293.0" prefHeight="0.0" prefWidth="376.0" />
+                  <TextField layoutX="138.0" layoutY="320.0" stylesheets="@style.css" text="&lt;&lt; Overnight oats">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextField>
+                  <TextArea layoutX="129.0" layoutY="361.0" prefHeight="112.0" prefWidth="220.0" stylesheets="@style.css" text="Serving size 212g&#10;Amount per serving:&#10;245 calories&#10;8.4g protein&#10;40.7g carbs , 9.4g sugar&#10;5.4g fats">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextArea>
+                  <Separator layoutX="2.0" layoutY="498.0" prefHeight="0.0" prefWidth="376.0" />
+                  <ImageView fitHeight="152.0" fitWidth="134.0" layoutX="2.0" layoutY="510.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/Camera%20Roll/Spinach-Omelette-1B.jpg" />
+                     </image>
+                  </ImageView>
+                  <TextField layoutX="114.0" layoutY="518.0" stylesheets="@style.css" text="&lt;&lt; Omelette ">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextField>
+                  <TextArea layoutX="129.0" layoutY="557.0" prefHeight="82.0" prefWidth="194.0" stylesheets="@style.css" text="Per 100 g : &#10;154 calories &#10;11g protein &#10;1g carbs">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextArea>
+                  <ImageView fitHeight="175.0" fitWidth="147.0" layoutX="378.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/WhatsApp%20Image%202024-05-07%20at%2010.07.11%20PM.jpeg" />
+                     </image>
+                  </ImageView>
+                  <TextField layoutX="499.0" layoutY="112.0" prefHeight="27.0" prefWidth="192.0" stylesheets="@style.css" text="&lt;&lt; Grilled chicken and rice">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextField>
+                  <TextArea layoutX="499.0" layoutY="152.0" prefHeight="79.0" prefWidth="226.0" stylesheets="@style.css" text="Service size 73 g &#10;amount per serving : &#10;370 calories _ 20g protein &#10;30g carbs _ 3g sugar _ 19g fats ">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextArea>
+                  <Separator layoutX="373.0" layoutY="293.0" prefHeight="4.0" prefWidth="373.0" />
+                  <ImageView fitHeight="131.0" fitWidth="178.0" layoutX="378.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/WhatsApp%20Image%202024-05-07%20at%2010.27.23%20PM.jpeg" />
+                     </image>
+                  </ImageView>
+                  <TextField layoutX="561.0" layoutY="314.0" prefHeight="27.0" prefWidth="192.0" stylesheets="@style.css" text="&lt;&lt; Fish and rice ">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextField>
+                  <TextArea layoutX="561.0" layoutY="361.0" prefHeight="99.0" prefWidth="185.0" stylesheets="@style.css" text="Per 248g:&#10;335 calories&#10;13g protein&#10;41g carbs&#10;13g fats">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextArea>
+                  <Separator layoutX="379.0" layoutY="472.0" prefHeight="2.0" prefWidth="375.0" />
+                  <ImageView fitHeight="131.0" fitWidth="178.0" layoutX="378.0" layoutY="481.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/Camera%20Roll/Chicken-Pasta-Salad-recipe.jpg" />
+                     </image>
+                  </ImageView>
+                  <TextField layoutX="558.0" layoutY="496.0" prefHeight="27.0" prefWidth="192.0" stylesheets="@style.css" text="&lt;&lt; Fresh salad with chicken ">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextField>
+                  <TextArea layoutX="564.0" layoutY="536.0" prefHeight="98.0" prefWidth="162.0" stylesheets="@style.css" text="Per 108g:&#10;164 calories&#10;15g proteins&#10;5g carbs&#10;9g fats">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextArea>
+                  <ImageView fitHeight="140.0" fitWidth="120.0" layoutX="759.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/WhatsApp%20Image%202024-05-07%20at%2010.38.09%20PM.jpeg" />
+                     </image>
+                  </ImageView>
+                  <TextField layoutX="894.0" layoutY="119.0" prefHeight="21.0" prefWidth="162.0" stylesheets="@style.css" text="&lt;&lt; Grilled chicken and rice">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextField>
+                  <TextArea layoutX="894.0" layoutY="157.0" prefHeight="95.0" prefWidth="110.0" stylesheets="@style.css" text="Per 210g:&#10;237 calories&#10;4.1g protein&#10;36g carbs&#10;8.8g fats">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextArea>
+                  <Separator layoutX="754.0" layoutY="282.0" prefHeight="0.0" prefWidth="306.0" />
+                  <ImageView fitHeight="103.0" fitWidth="151.0" layoutX="754.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/WhatsApp%20Image%202024-05-07%20at%2010.44.20%20PM.jpeg" />
+                     </image>
+                  </ImageView>
+                  <TextField layoutX="909.0" layoutY="327.0" prefHeight="12.0" prefWidth="132.0" stylesheets="@style.css" text="&lt;&lt; Tuna ">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextField>
+                  <TextArea layoutX="912.0" layoutY="358.0" prefHeight="96.0" prefWidth="126.0" stylesheets="@style.css" text="Per 100g:&#10;130 calories&#10;28g protein&#10;0g carbs&#10;1.3g fats">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextArea>
+                  <Separator layoutX="759.0" layoutY="494.0" prefHeight="0.0" prefWidth="302.0" />
+                  <ImageView fitHeight="166.0" fitWidth="181.0" layoutX="756.0" layoutY="496.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/WhatsApp%20Image%202024-05-07%20at%2010.43.58%20PM.jpeg" />
+                     </image>
+                  </ImageView>
+                  <TextArea layoutX="894.0" layoutY="543.0" prefHeight="110.0" prefWidth="161.0" stylesheets="@style.css" text="Per 235g without topping:&#10;149 calories&#10;8.5g protein&#10;11.4g carbs&#10;8g fats">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextArea>
+                  <TextField layoutX="905.0" layoutY="509.0" prefHeight="12.0" prefWidth="132.0" stylesheets="@style.css" text="&lt;&lt; Yogurt bowls ">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="round" />
+                     </styleClass>
+                  </TextField>
+               </children>
+            </AnchorPane>
+            <Separator prefHeight="3.0" prefWidth="398.0" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

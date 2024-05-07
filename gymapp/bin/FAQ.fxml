@@ -1,0 +1,186 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="768.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <ScrollPane prefHeight="768.0" prefWidth="1300.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="766.0" prefWidth="1299.0">
+                     <children>
+                        <Label layoutX="208.0" layoutY="145.0" prefHeight="32.0" prefWidth="536.0" text="1. What are the gym's opening hours?">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <padding>
+                              <Insets left="100.0" />
+                           </padding>
+                        </Label>
+                        <Label layoutX="233.0" layoutY="177.0" prefHeight="32.0" prefWidth="556.0" text="Our gym is 24 hours  every day.">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <padding>
+                              <Insets left="100.0" />
+                           </padding>
+                        </Label>
+                        <Label layoutX="211.0" layoutY="221.0" prefHeight="32.0" prefWidth="599.0" text="2. Do you offer personal training sessions?">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <padding>
+                              <Insets left="100.0" />
+                           </padding>
+                        </Label>
+                        <Label layoutX="226.0" layoutY="253.0" prefHeight="32.0" prefWidth="617.0" text="Yes, we offer personalized training sessions with certified trainers.">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <padding>
+                              <Insets left="100.0" />
+                           </padding>
+                        </Label>
+                        <Label layoutX="226.0" layoutY="304.0" prefHeight="32.0" prefWidth="544.0" text="3. How do I cancel my membership?">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <padding>
+                              <Insets left="100.0" />
+                           </padding>
+                        </Label>
+                        <Label layoutX="231.0" layoutY="329.0" prefHeight="32.0" prefWidth="606.0" text="You can cancel your membership by contacting our front desk .">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <padding>
+                              <Insets left="100.0" />
+                           </padding>
+                        </Label>
+                        <Label layoutX="233.0" layoutY="383.0" prefHeight="32.0" prefWidth="470.0" text="4.Can I bring a guest to the gym?">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <padding>
+                              <Insets left="100.0" />
+                           </padding>
+                        </Label>
+                        <Label layoutX="238.0" layoutY="477.0" prefHeight="32.0" prefWidth="593.0" text="5.Do you offer any special discounts or promotions?">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <padding>
+                              <Insets left="100.0" />
+                           </padding>
+                        </Label>
+                        <Label layoutX="266.0" layoutY="415.0" prefHeight="32.0" prefWidth="464.0" text="Yes, we offer guest passes for non-members">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <padding>
+                              <Insets left="100.0" />
+                           </padding>
+                        </Label>
+                        <Label layoutX="244.0" layoutY="509.0" prefHeight="32.0" prefWidth="558.0" text="Yes, we occasionally run special promotions and discounts">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <padding>
+                              <Insets left="100.0" />
+                           </padding>
+                        </Label>
+                        <Button layoutX="1084.0" layoutY="680.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="187.0" text="Ask your own question" />
+                        <AnchorPane layoutY="2.0" prefHeight="762.0" prefWidth="239.0">
+                           <children>
+                              <Label layoutX="28.0" layoutY="153.0" prefHeight="35.0" prefWidth="210.0" text="My profile ">
+                                 <padding>
+                                    <Insets left="50.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="28.0" layoutY="278.0" prefHeight="35.0" prefWidth="210.0" text="Eat healthy">
+                                 <padding>
+                                    <Insets left="50.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="28.0" layoutY="408.0" prefHeight="35.0" prefWidth="210.0" text="Membership">
+                                 <padding>
+                                    <Insets left="60.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="28.0" layoutY="520.0" prefHeight="35.0" prefWidth="210.0" text="Our gym">
+                                 <padding>
+                                    <Insets left="60.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="28.0" layoutY="629.0" prefHeight="35.0" prefWidth="210.0" text="FAQ">
+                                 <padding>
+                                    <Insets left="60.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="44.0" fitWidth="57.0" layoutX="7.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" />
+                              <ImageView fitHeight="44.0" fitWidth="57.0" layoutX="7.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../Pictures/eat-healthy-icon-in-illustration-vector.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="52.0" fitWidth="57.0" layoutX="7.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../Pictures/360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="52.0" fitWidth="66.0" layoutX="14.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../Pictures/user_icon_007.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="44.0" fitWidth="57.0" layoutX="22.0" layoutY="511.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../Pictures/3113570.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="51.0" fitWidth="57.0" layoutX="12.0" layoutY="624.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../Pictures/Camera%20Roll/images.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <TextField layoutX="286.0" layoutY="84.0" text="Search for any questions" />
+                        <Button layoutX="436.0" layoutY="84.0" mnemonicParsing="false" text="OK" />
+                        <Label layoutX="266.0" layoutY="25.0" prefHeight="35.0" prefWidth="170.0" text="To keep on track ,">
+                           <font>
+                              <Font name="System Bold" size="19.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+    </AnchorPane>
+      <ImageView fitHeight="44.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true" />
+  </children>
+</VBox>

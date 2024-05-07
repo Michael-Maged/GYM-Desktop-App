@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1315.0" style="-fx-background-color: #FFFF;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserProfileController">
+   <left>
+      <VBox alignment="CENTER" prefHeight="810.0" prefWidth="250.0" spacing="100.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
+         <children>
+            <Hyperlink alignment="CENTER" text="Hyperlink">
+               <graphic>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
+                     <children>
+                        <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../GymApp%20extras/profile.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="18.0" prefWidth="136.0" text="My Profile">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <effect>
+                        <ColorAdjust />
+                     </effect>
+                  </HBox>
+               </graphic>
+            </Hyperlink>
+            <Hyperlink text="Hyperlink">
+               <graphic>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
+                     <children>
+                        <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../GymApp%20extras/6286157.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </ImageView>
+                        <Label prefHeight="18.0" prefWidth="136.0" text="Eat Healthy">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </HBox>
+               </graphic>
+            </Hyperlink>
+            <Hyperlink text="Hyperlink">
+               <graphic>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
+                     <children>
+                        <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../GymApp%20extras/3951241.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </ImageView>
+                        <Label prefHeight="18.0" prefWidth="136.0" text="Membership">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                           <effect>
+                              <ColorAdjust />
+                           </effect>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </HBox>
+               </graphic>
+            </Hyperlink>
+            <Hyperlink text="Hyperlink">
+               <graphic>
+                  <HBox alignment="CENTER" spacing="30.0">
+                     <children>
+                        <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../GymApp%20extras/gym.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </ImageView>
+                        <Label prefHeight="18.0" prefWidth="136.0" text="Our Gym">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <effect>
+                              <ColorAdjust brightness="0.5" />
+                           </effect>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="35.0" />
+                     </padding>
+                  </HBox>
+               </graphic>
+            </Hyperlink>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="750.0" prefWidth="1023.0" style="-fx-background-color: #FAFAFAFA;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="" prefHeight="43.0" prefWidth="271.0" text="Available packages">
+               <VBox.margin>
+                  <Insets left="50.0" top="50.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="29.0" />
+               </font>
+            </Label>
+            <HBox prefHeight="235.0" prefWidth="995.0">
+               <VBox.margin>
+                  <Insets left="30.0" right="30.0" top="20.0" />
+               </VBox.margin>
+               <children>
+                  <VBox layoutX="10.0" layoutY="10.0" prefHeight="235.0" prefWidth="170.0" style="-fx-background-radius: 15; -fx-background-color: #ededed;">
+                     <children>
+                        <HBox prefHeight="49.0" prefWidth="123.0">
+                           <children>
+                              <AnchorPane prefHeight="46.0" prefWidth="64.0" />
+                              <ImageView fitHeight="58.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@10039353.png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="58.0" prefWidth="176.0" text="\$50">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="65.0" />
+                                 </HBox.margin>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Label prefHeight="37.0" prefWidth="174.0" text="Gym Machines">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label text="Only Fitness  class is  included">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label text="Freeze for One week">
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                     <HBox.margin>
+                        <Insets right="25.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox layoutX="180.0" layoutY="10.0" prefHeight="235.0" prefWidth="170.0" style="-fx-background-radius: 15; -fx-background-color: #ededed;">
+                     <children>
+                        <HBox prefHeight="49.0" prefWidth="123.0">
+                           <children>
+                              <ImageView fitHeight="54.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@7198818.png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="58.0" prefWidth="176.0" text="\$100">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="65.0" />
+                                 </HBox.margin>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Label prefHeight="30.0" prefWidth="173.0" text="Gym Machines">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets top="5.0" />
+                           </padding>
+                        </Label>
+                        <Label text="Only Fitness class is included">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets top="5.0" />
+                           </padding>
+                        </Label>
+                        <Label text="sauna is included">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label text="Freeze for One month">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                     <HBox.margin>
+                        <Insets right="25.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox layoutX="351.0" layoutY="10.0" prefHeight="235.0" prefWidth="170.0" style="-fx-background-radius: 15; -fx-background-color: #ededed;">
+                     <children>
+                        <HBox prefHeight="49.0" prefWidth="123.0">
+                           <children>
+                              <ImageView fitHeight="57.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@12256904.png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="58.0" prefWidth="176.0" text="\$150">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="65.0" />
+                                 </HBox.margin>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Label prefHeight="36.0" prefWidth="156.0" text="Gym Machines ">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="156.0" text="Classes are included ">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label prefHeight="34.0" prefWidth="156.0" text="siwimming pool">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label text="Freeze for Three monthes">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label prefHeight="36.0" prefWidth="170.0" text="available for all branches">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                     <HBox.margin>
+                        <Insets right="25.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox layoutX="521.0" layoutY="10.0" prefHeight="235.0" prefWidth="170.0" style="-fx-background-radius: 15; -fx-background-color: #ededed;">
+                     <children>
+                        <HBox prefHeight="49.0" prefWidth="123.0">
+                           <children>
+                              <ImageView fitHeight="46.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@30544.png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="58.0" prefWidth="176.0" text="\$200">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="65.0" />
+                                 </HBox.margin>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Label prefHeight="27.0" prefWidth="156.0" text="Gym Machines">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="28.0" prefWidth="176.0" text="Classes are included">
+                           <VBox.margin>
+                              <Insets left="15.0" top="10.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets top="5.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="26.0" prefWidth="156.0" text="swimming pool ">
+                           <VBox.margin>
+                              <Insets left="15.0" top="5.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets top="5.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="26.0" prefWidth="156.0" text="sauna is included">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label text="Freeze for Five  monthes">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="45.0" prefWidth="191.0" text="available for all branches">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="10.0" top="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                     <HBox.margin>
+                        <Insets right="25.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox layoutX="400.0" layoutY="10.0" prefHeight="235.0" prefWidth="170.0" style="-fx-background-radius: 15; -fx-background-color: #ededed;">
+                     <children>
+                        <HBox prefHeight="49.0" prefWidth="123.0">
+                           <children>
+                              <ImageView fitHeight="50.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@10049531.png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="58.0" prefWidth="176.0" text="\$500">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="65.0" />
+                                 </HBox.margin>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Label prefHeight="47.0" prefWidth="172.0" text=" Five mebers may enroll ">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label text="Gym Machines">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label prefHeight="36.0" prefWidth="171.0" text="Gym Machines">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets top="5.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="177.0" text="Guiding coach">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets top="5.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="170.0" text="Classes are included">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets top="5.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="36.0" prefWidth="176.0" text="swimming pool">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label prefHeight="33.0" prefWidth="178.0" text="Freeze for Nine monthes">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="5.0" />
+                           </padding>
+                        </Label>
+                        <Label text="available for all branches">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <VBox prefHeight="409.0" prefWidth="1065.0">
+               <children>
+                  <Label prefHeight="46.0" prefWidth="848.0" text="Ready to get fit? Just sign up for your gym package today and let's start this awesome journey together! ">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="15.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="20.0" top="40.0" />
+                     </padding>
+                  </Label>
+                  <AnchorPane prefHeight="269.0" prefWidth="1050.0" style="-fx-border-color: grey; -fx-background-radius: 50;">
+                     <children>
+                        <TextField layoutX="28.0" layoutY="44.0" prefHeight="30.0" prefWidth="181.0" promptText="uyfcfucyufc" text="Choose Package" />
+                        <Button layoutX="68.0" layoutY="253.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="100.0" style="-fx-background-color: Black;" text="Submit" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font></Button>
+                        <Label layoutX="26.0" layoutY="74.0" prefHeight="26.0" prefWidth="229.0" text="You can pay cash in our gym reception">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding></Label>
+                        <TextField layoutX="26.0" layoutY="115.0" prefHeight="26.0" prefWidth="185.0" text="Card Holder name" />
+                        <TextField layoutX="27.0" layoutY="164.0" prefHeight="26.0" prefWidth="183.0" text="Card number" />
+                        <TextField layoutX="27.0" layoutY="213.0" prefHeight="26.0" prefWidth="182.0" text="CVV" />
+                        <ImageView fitHeight="33.0" fitWidth="36.0" layoutX="223.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@9334601.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="34.0" layoutY="304.0" prefHeight="18.0" prefWidth="221.0" text="Hope you enjoy your journey with us " />
+                     </children>
+                     <VBox.margin>
+                        <Insets left="50.0" />
+                     </VBox.margin>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1315.0" style="-fx-background-color: #FFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserProfileController">
+    <left>
+        <VBox alignment="CENTER" prefHeight="810.0" prefWidth="250.0" spacing="100.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
+            <children>
+                <Hyperlink alignment="CENTER" text="Hyperlink">
+                    <graphic>
+                        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
+                            <children>
+                                <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../GymApp%20extras/profile.png" />
+                                    </image>
+                                </ImageView>
+                                <Label prefHeight="18.0" prefWidth="136.0" text="My Profile">
+                                    <font>
+                                        <Font name="System Bold" size="16.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                            <effect>
+                                <ColorAdjust />
+                            </effect>
+                        </HBox>
+                    </graphic>
+                </Hyperlink>
+                <Hyperlink fx:id="eathealthyLink" text="Hyperlink"onAction="#handleeathealthyLink">
+                    <graphic>
+                        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
+                            <children>
+                                <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../GymApp%20extras/6286157.png" />
+                                    </image>
+                                    <effect>
+                                        <ColorAdjust brightness="0.5" />
+                                    </effect>
+                                </ImageView>
+                                <Label prefHeight="18.0" prefWidth="136.0" text="Eat Healthy">
+                                    <font>
+                                        <Font size="16.0" />
+                                    </font>
+                                    <effect>
+                                        <ColorAdjust brightness="0.5" />
+                                    </effect>
+                                </Label>
+                            </children>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </HBox>
+                    </graphic>
+                </Hyperlink>
+                <Hyperlink fx:id="membershipLink" text="Hyperlink"onAction="#handlemembershipLink" >
+                    <graphic>
+                        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
+                            <children>
+                                <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../GymApp%20extras/3951241.png" />
+                                    </image>
+                                    <effect>
+                                        <ColorAdjust brightness="0.5" />
+                                    </effect>
+                                </ImageView>
+                                <Label prefHeight="18.0" prefWidth="136.0" text="Membership">
+                                    <font>
+                                        <Font size="16.0" />
+                                    </font>
+                                    <effect>
+                                        <ColorAdjust brightness="0.5" />
+                                    </effect>
+                                </Label>
+                            </children>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </HBox>
+                    </graphic>
+                </Hyperlink>
+                <Hyperlink fx:id="ourgymLink" text="Hyperlink" onAction="#handleourgymLink">
+                    <graphic>
+                        <HBox alignment="CENTER" spacing="30.0">
+                            <children>
+                                <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../GymApp%20extras/gym.png" />
+                                    </image>
+                                    <effect>
+                                        <ColorAdjust brightness="0.5" />
+                                    </effect>
+                                </ImageView>
+                                <Label prefHeight="18.0" prefWidth="136.0" text="Our Gym">
+                                    <font>
+                                        <Font size="16.0" />
+                                    </font>
+                                    <effect>
+                                        <ColorAdjust brightness="0.5" />
+                                    </effect>
+                                </Label>
+                            </children>
+                            <padding>
+                                <Insets left="35.0" />
+                            </padding>
+                        </HBox>
+                    </graphic>
+                </Hyperlink>
+            </children>
+        </VBox>
+    </left>
+    <center>
+        <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #FAFAFAFA;" BorderPane.alignment="CENTER">
+            <children>
+                <Label fx:id="welcomeLabel" prefHeight="43.0" prefWidth="215.0" text="Welcome, ">
+                    <VBox.margin>
+                        <Insets left="50.0" top="50.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="System Bold Italic" size="29.0" />
+                    </font>
+                </Label>
+                <HBox prefHeight="235.0" prefWidth="995.0">
+                    <VBox.margin>
+                        <Insets left="30.0" right="30.0" top="20.0" />
+                    </VBox.margin>
+                    <children>
+                        <VBox prefHeight="222.0" prefWidth="265.0" style="-fx-background-radius: 20; -fx-background-color: #FFFFFF;">
+                            <children>
+                                <AnchorPane prefHeight="29.0" prefWidth="265.0">
+                                    <children>
+                                        <Label layoutX="24.0" layoutY="22.0" text="YOUR DATA:">
+                                            <font>
+                                                <Font name="System Bold" size="18.0" />
+                                            </font>
+                                        </Label>
+                                        <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="205.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../GymApp%20extras/characteristics.png" />
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                </AnchorPane>
+                                <HBox prefHeight="40.0" prefWidth="266.0">
+                                    <children>
+                                        <Label text="Age:">
+                                            <HBox.margin>
+                                                <Insets left="40.0" top="10.0" />
+                                            </HBox.margin>
+                                            <font>
+                                                <Font size="18.0" />
+                                            </font>
+                                        </Label>
+                                        <Label fx:id="ageLabel" alignment="CENTER_RIGHT" layoutX="50.0" layoutY="20.0" text="age">
+                                            <font>
+                                                <Font size="18.0" />
+                                            </font>
+                                            <HBox.margin>
+                                                <Insets left="100.0" top="10.0" />
+                                            </HBox.margin>
+                                        </Label>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="5.0" />
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox layoutX="10.0" layoutY="52.0" prefHeight="40.0" prefWidth="266.0">
+                                    <children>
+                                        <Label text="Weight:">
+                                            <HBox.margin>
+                                                <Insets left="40.0" top="10.0" />
+                                            </HBox.margin>
+                                            <font>
+                                                <Font size="18.0" />
+                                            </font>
+                                        </Label>
+                                        <Label fx:id="weightLabel" layoutX="50.0" layoutY="20.0" text="weight">
+                                            <font>
+                                                <Font size="18.0" />
+                                            </font>
+                                            <HBox.margin>
+                                                <Insets left="73.0" top="10.0" />
+                                            </HBox.margin>
+                                        </Label>
+                                    </children>
+                                </HBox>
+                                <HBox layoutX="10.0" layoutY="92.0" prefHeight="40.0" prefWidth="266.0">
+                                    <children>
+                                        <Label text="Height:">
+                                            <HBox.margin>
+                                                <Insets left="40.0" top="10.0" />
+                                            </HBox.margin>
+                                            <font>
+                                                <Font size="18.0" />
+                                            </font>
+                                        </Label>
+                                        <Label fx:id="heightLabel" layoutX="50.0" layoutY="20.0" text="height">
+                                            <font>
+                                                <Font size="18.0" />
+                                            </font>
+                                            <HBox.margin>
+                                                <Insets left="76.0" top="10.0" />
+                                            </HBox.margin>
+                                        </Label>
+                                    </children>
+                                </HBox>
+                                <HBox layoutX="10.0" layoutY="132.0" prefHeight="40.0" prefWidth="266.0">
+                                    <children>
+                                        <Label text="Gender:">
+                                            <HBox.margin>
+                                                <Insets left="40.0" top="10.0" />
+                                            </HBox.margin>
+                                            <font>
+                                                <Font size="18.0" />
+                                            </font>
+                                        </Label>
+                                        <Label fx:id="genderLabel" layoutX="50.0" layoutY="20.0" text="gender">
+                                            <font>
+                                                <Font size="18.0" />
+                                            </font>
+                                            <HBox.margin>
+                                                <Insets left="70.0" top="10.0" />
+                                            </HBox.margin>
+                                        </Label>
+                                    </children>
+                                </HBox>
+                            </children>
+                            <HBox.margin>
+                                <Insets />
+                            </HBox.margin>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="10.0" prefHeight="222.0" prefWidth="265.0" style="-fx-background-radius: 20; -fx-background-color: #FFFFFF;">
+                            <HBox.margin>
+                                <Insets left="105.0" />
+                            </HBox.margin>
+                            <children>
+                                <AnchorPane prefHeight="29.0" prefWidth="265.0">
+                                    <children>
+                                        <Label layoutX="24.0" layoutY="22.0" text="MEMBERSHIP:">
+                                            <font>
+                                                <Font name="System Bold" size="18.0" />
+                                            </font>
+                                        </Label>
+                                        <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="205.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../GymApp%20extras/3951241.png" />
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="188.0" prefWidth="265.0">
+                                    <children>
+                                        <Label layoutX="28.0" layoutY="22.0" text="NAME">
+                                            <font>
+                                                <Font name="System Bold" size="24.0" />
+                                            </font>
+                                        </Label>
+                                        <Label layoutX="152.0" layoutY="140.0" text="X Days Left">
+                                            <font>
+                                                <Font name="System Bold" size="18.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </VBox>
+                        <VBox layoutX="296.0" layoutY="10.0" prefHeight="222.0" prefWidth="265.0" style="-fx-background-radius: 20; -fx-background-color: #FFFFFF;">
+                            <HBox.margin>
+                                <Insets left="105.0" />
+                            </HBox.margin>
+                            <children>
+                                <AnchorPane prefHeight="29.0" prefWidth="265.0">
+                                    <children>
+                                        <Label layoutX="24.0" layoutY="22.0" text="DAILY INTAKE:">
+                                            <font>
+                                                <Font name="System Bold" size="18.0" />
+                                            </font>
+                                        </Label>
+                                        <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="205.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../GymApp%20extras/4257339.png" />
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                    <children>
+                                        <Label layoutX="38.0" layoutY="59.0" text="XXXX kcal">
+                                            <font>
+                                                <Font name="System Bold" size="36.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF;">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                    <children>
+                        <Label layoutX="33.0" layoutY="13.0" text="IN-BODY STATS">
+                            <font>
+                                <Font name="System Bold Italic" size="18.0" />
+                            </font>
+                        </Label>
+                  <Button layoutX="207.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #000000;" text="Edit Info" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Button>
+                  <VBox alignment="CENTER_RIGHT" layoutX="101.0" layoutY="52.0" prefHeight="148.0" prefWidth="122.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="143.0" text="BMR">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="131.0" text="PMM" textAlignment="CENTER">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="15.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="133.0" text="PBF" textAlignment="RIGHT">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="15.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER_RIGHT" layoutX="223.0" layoutY="52.0" prefHeight="148.0" prefWidth="122.0">
+                     <children>
+                        <Label fx:id="bmr" alignment="CENTER" prefHeight="30.0" prefWidth="143.0" text="bmr">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="pmm" alignment="CENTER" prefHeight="30.0" prefWidth="131.0" text="pmm" textAlignment="CENTER">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="15.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="133.0" text="pbf" textAlignment="RIGHT">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="15.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <TextArea layoutX="532.0" layoutY="57.0" prefHeight="117.0" prefWidth="510.0" style="-fx-background-color: #FAFAFAFA; -fx-border-color: transparent; -fx-border-radius: 20;" text="To enhance In-Body results, commit to a balanced workout &#10;routine with cardio and strength training, gradually increasing intensity. &#10;Opt for nutrient-rich foods, hydrate well, and ensure ample rest. &#10;Track progress and seek expert advice if needed. &#10;Consistency is vital for lasting results.">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextArea>
+                  <TextField layoutX="328.0" layoutY="69.0" prefHeight="26.0" prefWidth="78.0" promptText="New BMR" style="-fx-background-color: #FAFAFAFA; -fx-border-color: transparent;" />
+                  <TextField layoutX="328.0" layoutY="116.0" prefHeight="26.0" prefWidth="78.0" promptText="New PMM" style="-fx-background-color: #FAFAFAFA; -fx-border-color: transparent;" />
+                  <TextField layoutX="328.0" layoutY="160.0" prefHeight="26.0" prefWidth="78.0" promptText="New PBF" style="-fx-background-color: #FAFAFAFA; -fx-border-color: transparent;" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>
