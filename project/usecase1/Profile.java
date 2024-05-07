@@ -1,6 +1,4 @@
-package usecase1;
-
-public class profile {
+public class Profile {
     private String Name;
     private String password;
     private String email;
