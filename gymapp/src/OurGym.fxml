@@ -20,7 +20,7 @@
    <left>
       <VBox alignment="CENTER" prefHeight="810.0" prefWidth="250.0" spacing="100.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
          <children>
-            <Hyperlink alignment="CENTER" text="Hyperlink">
+            <Hyperlink fx:id="myprofileLink" alignment="CENTER" text="Hyperlink" onAction="#handlemyprofileLink">
                <graphic>
                   <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
                      <children>
@@ -47,7 +47,7 @@
                   </HBox>
                </graphic>
             </Hyperlink>
-            <Hyperlink text="Hyperlink">
+            <Hyperlink fx:id="eathealthyLink" text="Hyperlink" onAction="#handleeathealthyLink">
                <graphic>
                   <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
                      <children>
@@ -74,7 +74,7 @@
                   </HBox>
                </graphic>
             </Hyperlink>
-            <Hyperlink text="Hyperlink">
+            <Hyperlink fx:id="membershipLink" text="Hyperlink" onAction="handlemembershipLink">
                <graphic>
                   <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
                      <children>
