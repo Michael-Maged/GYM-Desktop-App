@@ -15,16 +15,15 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-
-public class EatHealthyController {
+public class Membership {
     @FXML
     private Hyperlink ourgymLink;
 
     @FXML
-    private Hyperlink myprofileLink;
+    private Hyperlink eathealthyLink;
 
     @FXML
-    private Hyperlink membershipLink;
+    private Hyperlink myprofileink;
 
     @FXML
     public void handleourgymLink(ActionEvent event) {
@@ -47,6 +46,25 @@ public class EatHealthyController {
 
 
     @FXML
+    public void handleeathealthyLink(ActionEvent event) {
+            try {
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("EatHealthy.fxml"));
+                Parent root = loader.load();
+                Stage stage = new Stage();
+                stage.setResizable(false);
+                stage.setTitle("Mechanix Muscle Gym");
+                stage.setScene(new Scene(root));
+                stage.show();
+
+                Stage currentStage = (Stage) eathealthyLink.getScene().getWindow();
+                currentStage.close();
+            } 
+            catch (IOException e) {
+                e.printStackTrace();
+            }
+    }
+
+    @FXML
     public void handlemyprofileLink(ActionEvent event) {
             try {
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("Profiledashboard.fxml"));
@@ -57,31 +75,11 @@ public class EatHealthyController {
                 stage.setScene(new Scene(root));
                 stage.show();
 
-                Stage currentStage = (Stage) myprofileLinkLink.getScene().getWindow();
+                Stage currentStage = (Stage) myprofileinkLink.getScene().getWindow();
                 currentStage.close();
             } 
             catch (IOException e) {
                 e.printStackTrace();
             }
     }
-
-    @FXML
-    public void handlemembershipLink(ActionEvent event) {
-            try {
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("Membership.fxml"));
-                Parent root = loader.load();
-                Stage stage = new Stage();
-                stage.setResizable(false);
-                stage.setTitle("Mechanix Muscle Gym");
-                stage.setScene(new Scene(root));
-                stage.show();
-
-                Stage currentStage = (Stage) membershipLink.getScene().getWindow();
-                currentStage.close();
-            } 
-            catch (IOException e) {
-                e.printStackTrace();
-            }
-    }
-
 }

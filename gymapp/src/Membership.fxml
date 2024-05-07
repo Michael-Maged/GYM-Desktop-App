@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1315.0" style="-fx-background-color: #FFFF;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserProfileController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1315.0" style="-fx-background-color: #FFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserProfileController">
    <left>
       <VBox alignment="CENTER" prefHeight="810.0" prefWidth="250.0" spacing="100.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
          <children>
             <Hyperlink alignment="CENTER" text="Hyperlink">
                <graphic>
-                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
+                  <HBox fx:id="myprofileLink" alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0" onAction="#handlemyprofileLink">
                      <children>
                         <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -38,7 +45,7 @@
                   </HBox>
                </graphic>
             </Hyperlink>
-            <Hyperlink text="Hyperlink">
+            <Hyperlink fx:id="eathealthyLink" text="Hyperlink" onAction="handleeathealthyLink">
                <graphic>
                   <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
                      <children>
@@ -65,7 +72,7 @@
                   </HBox>
                </graphic>
             </Hyperlink>
-            <Hyperlink text="Hyperlink">
+            <Hyperlink fx:id="membershipLink" text="Hyperlink" >
                <graphic>
                   <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
                      <children>
@@ -92,7 +99,7 @@
                   </HBox>
                </graphic>
             </Hyperlink>
-            <Hyperlink text="Hyperlink">
+            <Hyperlink fx:id="ourgymLink" text="Hyperlink" onAction="#handleourgymLink">
                <graphic>
                   <HBox alignment="CENTER" spacing="30.0">
                      <children>
