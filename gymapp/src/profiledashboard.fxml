@@ -25,7 +25,7 @@
                             <children>
                                 <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../../../GymApp%20extras/profile.png" />
+                                        <Image url="@../images/profile.png" />
                                     </image>
                                 </ImageView>
                                 <Label prefHeight="18.0" prefWidth="136.0" text="My Profile">
@@ -43,13 +43,13 @@
                         </HBox>
                     </graphic>
                 </Hyperlink>
-                <Hyperlink fx:id="eathealthyLink" text="Hyperlink" onAction="#handleeathealthyLink">
+                <Hyperlink fx:id="eathealthyLink" onAction="#handleeathealthyLink" text="Hyperlink">
                     <graphic>
                         <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
                             <children>
                                 <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../../../GymApp%20extras/6286157.png" />
+                                        <Image url="@../images/food.png" />
                                     </image>
                                     <effect>
                                         <ColorAdjust brightness="0.5" />
@@ -70,13 +70,13 @@
                         </HBox>
                     </graphic>
                 </Hyperlink>
-                <Hyperlink fx:id="membershipLink" text="Hyperlink" onAction="#handlemembershipLink" >
+                <Hyperlink fx:id="membershipLink" onAction="#handlemembershipLink" text="Hyperlink">
                     <graphic>
                         <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
                             <children>
                                 <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../../../GymApp%20extras/3951241.png" />
+                                        <Image url="@../images/member.png" />
                                     </image>
                                     <effect>
                                         <ColorAdjust brightness="0.5" />
@@ -97,13 +97,13 @@
                         </HBox>
                     </graphic>
                 </Hyperlink>
-                <Hyperlink fx:id="ourgymLink" text="Hyperlink" onAction="#handleourgymLink">
+                <Hyperlink fx:id="ourgymLink" onAction="#handleourgymLink" text="Hyperlink">
                     <graphic>
                         <HBox alignment="CENTER" spacing="30.0">
                             <children>
                                 <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../../../GymApp%20extras/gym.png" />
+                                        <Image url="@../images/gym.png" />
                                     </image>
                                     <effect>
                                         <ColorAdjust brightness="0.5" />
@@ -154,7 +154,7 @@
                                         </Label>
                                         <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="205.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../../../GymApp%20extras/characteristics.png" />
+                                                <Image url="@../images/characteristics.png" />
                                             </image>
                                         </ImageView>
                                     </children>
@@ -261,7 +261,7 @@
                                         </Label>
                                         <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="205.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../../../GymApp%20extras/3951241.png" />
+                                                <Image url="@../images/member.png" />
                                             </image>
                                         </ImageView>
                                     </children>
@@ -296,7 +296,7 @@
                                         </Label>
                                         <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="205.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../../../GymApp%20extras/4257339.png" />
+                                                <Image url="@../images/cal.png" />
                                             </image>
                                         </ImageView>
                                     </children>
