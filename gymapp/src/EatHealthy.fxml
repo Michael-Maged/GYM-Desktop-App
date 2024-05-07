@@ -71,7 +71,7 @@
                   </HBox>
                </graphic>
             </Hyperlink>
-            <Hyperlink text="Hyperlink">
+            <Hyperlink fx:id="membershipLink" onAction="#handlemembershipLink" text="Hyperlink">
                <graphic>
                   <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
                      <children>
@@ -98,7 +98,7 @@
                   </HBox>
                </graphic>
             </Hyperlink>
-            <Hyperlink text="Hyperlink">
+            <Hyperlink fx:id="ourgymlink" onAction="#handleourgymlink" text="Hyperlink">
                <graphic>
                   <HBox fx:id="ourgymLink" alignment="CENTER" onAction="#handleourgymLink" spacing="30.0">
                      <children>
