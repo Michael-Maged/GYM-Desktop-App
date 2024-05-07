@@ -14,8 +14,8 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
-            "mainClass": "Main",
-            "projectName": "gymapp_c8272820",
+            "mainClass": "gymapp.src.Main",
+            "projectName": "GymApp_8b5639a7",
             "vmArgs": "--module-path \"C:/Javafx/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
