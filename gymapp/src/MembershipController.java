@@ -75,7 +75,7 @@ public class MembershipController {
                 stage.setScene(new Scene(root));
                 stage.show();
 
-                Stage currentStage = (Stage) myprofileinkLink.getScene().getWindow();
+                Stage currentStage = (Stage) myprofileink.getScene().getWindow();
                 currentStage.close();
             } 
             catch (IOException e) {
