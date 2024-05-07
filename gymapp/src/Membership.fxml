@@ -24,7 +24,7 @@
                      <children>
                         <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../GymApp%20extras/profile.png" />
+                              <Image url="@../images/profile.png" />
                            </image>
                         </ImageView>
                         <Label prefHeight="18.0" prefWidth="136.0" text="My Profile">
@@ -51,7 +51,7 @@
                      <children>
                         <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../GymApp%20extras/6286157.png" />
+                              <Image url="@../images/food.png" />
                            </image>
                            <effect>
                               <ColorAdjust brightness="0.5" />
@@ -78,7 +78,7 @@
                      <children>
                         <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../GymApp%20extras/3951241.png" />
+                              <Image url="@../images/member.png" />
                            </image>
                            <effect>
                               <ColorAdjust brightness="0.5" />
@@ -105,7 +105,7 @@
                      <children>
                         <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../GymApp%20extras/gym.png" />
+                              <Image url="@../images/gym.png" />
                            </image>
                            <effect>
                               <ColorAdjust brightness="0.5" />
