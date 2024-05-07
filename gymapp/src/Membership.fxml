@@ -18,9 +18,9 @@
    <left>
       <VBox alignment="CENTER" prefHeight="810.0" prefWidth="250.0" spacing="100.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
          <children>
-            <Hyperlink alignment="CENTER" text="Hyperlink">
+            <Hyperlink fx:id="myprofileLink" alignment="CENTER" onAction="#handlemyprofileLink">
                <graphic>
-                  <HBox fx:id="myprofileLink" alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0" onAction="#handlemyprofileLink">
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
                      <children>
                         <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -45,7 +45,7 @@
                   </HBox>
                </graphic>
             </Hyperlink>
-            <Hyperlink fx:id="eathealthyLink" text="Hyperlink" onAction="handleeathealthyLink">
+            <Hyperlink fx:id="eathealthyLink" onAction="handleeathealthyLink" text="Hyperlink">
                <graphic>
                   <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
                      <children>
@@ -72,7 +72,7 @@
                   </HBox>
                </graphic>
             </Hyperlink>
-            <Hyperlink fx:id="membershipLink" text="Hyperlink" >
+            <Hyperlink fx:id="membershipLink" text="Hyperlink">
                <graphic>
                   <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
                      <children>
@@ -99,7 +99,7 @@
                   </HBox>
                </graphic>
             </Hyperlink>
-            <Hyperlink fx:id="ourgymLink" text="Hyperlink" onAction="#handleourgymLink">
+            <Hyperlink fx:id="ourgymLink" onAction="#handleourgymLink" text="Hyperlink">
                <graphic>
                   <HBox alignment="CENTER" spacing="30.0">
                      <children>

@@ -57,7 +57,7 @@ public class EatHealthyController {
                 stage.setScene(new Scene(root));
                 stage.show();
 
-                Stage currentStage = (Stage) myprofileLinkLink.getScene().getWindow();
+                Stage currentStage = (Stage) myprofileLink.getScene().getWindow();
                 currentStage.close();
             } 
             catch (IOException e) {

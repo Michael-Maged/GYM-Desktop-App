@@ -23,7 +23,7 @@ public class MembershipController {
     private Hyperlink eathealthyLink;
 
     @FXML
-    private Hyperlink myprofileink;
+    private Hyperlink myprofileLink;
 
     @FXML
     public void handleourgymLink(ActionEvent event) {
@@ -75,7 +75,7 @@ public class MembershipController {
                 stage.setScene(new Scene(root));
                 stage.show();
 
-                Stage currentStage = (Stage) myprofileinkLink.getScene().getWindow();
+                Stage currentStage = (Stage) myprofileLink.getScene().getWindow();
                 currentStage.close();
             } 
             catch (IOException e) {
