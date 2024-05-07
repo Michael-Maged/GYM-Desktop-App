@@ -18,7 +18,7 @@
             <TextField fx:id="emailField" layoutX="76.0" layoutY="282.0" promptText="Email" style="-fx-background-color: #FAFAFA; -fx-border-color: transparent; -fx-background-radius: 10;" />
             <ImageView fitHeight="110.0" fitWidth="110.0" layoutX="97.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../GymApp%20extras/profile.png" />
+                  <Image url="@../images/profile.png" />
                </image>
             </ImageView>
             <Label layoutX="114.0" layoutY="191.0" text="LOGIN">
@@ -41,9 +41,9 @@
    <center>
       <AnchorPane prefHeight="700.0" prefWidth="300.0" style="-fx-background-color: #FAFAFA;" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="587.0" fitWidth="419.0" layoutX="-28.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="587.0" fitWidth="328.0" layoutX="-28.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../Downloads/7329234.jpg" />
+                  <Image url="@../images/keepgoing.jpg" />
                </image>
             </ImageView>
          </children>
