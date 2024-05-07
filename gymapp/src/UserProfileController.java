@@ -43,6 +43,9 @@ public class UserProfileController{
     //private Label mmpLabel;
 
     @FXML
+    private Label kcallabel;
+
+    @FXML
     private Hyperlink ourgymLink;
 
     @FXML
@@ -120,6 +123,7 @@ public class UserProfileController{
         //bmrLabel.setText("BMR: " + userProfile.getBMR());
         //pbfLabel.setText("PBF: " + userProfile.getBodyfatpercentage() + "%");
         //mmpLabel.setText("MMP: " + userProfile.getMMP() + "%");
+        kcallabel.setText(""+userProfile.getcalories());
     }
 
     private void updateUserProfileInDatabase(UserProfile userProfile) {
