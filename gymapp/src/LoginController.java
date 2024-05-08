@@ -33,7 +33,7 @@ public class LoginController {
     private Hyperlink registerLink;
 
     @FXML
-    private Hyperlink resetPassLink;
+    private Hyperlink resetLink;
 
     String url = "jdbc:mysql://127.0.0.1:3306/gymdb";
     String user = "root";
@@ -59,9 +59,22 @@ public class LoginController {
     }
 
     @FXML
-    private void handlePassReset(ActionEvent event){
-        //TODO: reset password procedure
-    }
+    private void handleresetLink(ActionEvent event){
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("resetpassword.fxml"));
+            Parent root = loader.load();
+            Stage stage = new Stage();
+            stage.setResizable(false);
+            stage.setTitle("Mechanix Muscle Gym");
+            stage.setScene(new Scene(root));
+            stage.show();
+
+            Stage currentStage = (Stage) resetLink.getScene().getWindow();
+            currentStage.close();
+        } 
+        catch (IOException e) {
+            e.printStackTrace();
+        }    }
 
     @FXML
     private void handleLogin(ActionEvent event){
