@@ -45,7 +45,7 @@
                   </HBox>
                </graphic>
             </Hyperlink>
-            <Hyperlink fx:id="eathealthyLink" onAction="handleeathealthyLink" text="Hyperlink">
+            <Hyperlink fx:id="eathealthyLink" onAction="#handleeathealthyLink" text="Hyperlink">
                <graphic>
                   <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="30.0">
                      <children>

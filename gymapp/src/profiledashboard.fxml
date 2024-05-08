@@ -303,7 +303,7 @@
                                 </AnchorPane>
                                 <AnchorPane prefHeight="200.0" prefWidth="200.0">
                                     <children>
-                                        <Label layoutX="38.0" layoutY="59.0" text="XXXX kcal">
+                                        <Label fx:id="kcallabel" layoutX="38.0" layoutY="59.0" text="XXXX kcal">
                                             <font>
                                                 <Font name="System Bold" size="36.0" />
                                             </font>

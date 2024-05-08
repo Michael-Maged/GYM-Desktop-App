@@ -54,6 +54,9 @@ public class UserProfileController{
     private Button editinfoButton;
 
     @FXML
+    private Label kcallabel;
+
+    @FXML
     private Hyperlink ourgymLink;
 
     @FXML
@@ -148,9 +151,9 @@ public class UserProfileController{
         ageLabel.setText(userProfile.getage() + "yrs");
         weightLabel.setText(userProfile.getweight() + " kg");
         genderLabel.setText((userProfile.getisMale() ? "Male" : "Female"));
-        bmrLabel.setText(userProfile.getBMR() + "kcal");
-        pbfLabel.setText(userProfile.getBodyfatpercentage() + "%");
-        pmmLabel.setText(userProfile.getMMP() + "%");
+        //bmrLabel.setText("BMR: " + userProfile.getBMR());
+        //pbfLabel.setText("PBF: " + userProfile.getBodyfatpercentage() + "%");
+        //mmpLabel.setText("MMP: " + userProfile.getMMP() + "%");
     }
 
     private void updateUserProfileInDatabase(UserProfile userProfile) {
