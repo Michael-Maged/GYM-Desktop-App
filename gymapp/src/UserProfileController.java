@@ -151,9 +151,9 @@ public class UserProfileController{
         ageLabel.setText(userProfile.getage() + "yrs");
         weightLabel.setText(userProfile.getweight() + " kg");
         genderLabel.setText((userProfile.getisMale() ? "Male" : "Female"));
-        //bmrLabel.setText("BMR: " + userProfile.getBMR());
-        //pbfLabel.setText("PBF: " + userProfile.getBodyfatpercentage() + "%");
-        //mmpLabel.setText("MMP: " + userProfile.getMMP() + "%");
+        bmrLabel.setText(userProfile.getBMR() + "kcal");
+        pbfLabel.setText(userProfile.getBodyfatpercentage() + "%");
+        pmmLabel.setText(userProfile.getMMP() + "%");
     }
 
     private void updateUserProfileInDatabase(UserProfile userProfile) {
