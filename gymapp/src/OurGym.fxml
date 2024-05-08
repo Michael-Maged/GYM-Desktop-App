@@ -26,7 +26,7 @@
                      <children>
                         <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../images/profile.png" />
+                              <Image url="@../../../../images/5508686.png" />
                            </image>
                            <effect>
                               <ColorAdjust brightness="0.5" />
@@ -56,7 +56,7 @@
                      <children>
                         <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../images/food.png" />
+                              <Image url="@../../../../images/food.png" />
                            </image>
                            <effect>
                               <ColorAdjust brightness="0.5" />
@@ -83,7 +83,7 @@
                      <children>
                         <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../images/member.png" />
+                              <Image url="@../../../../images/member.png" />
                            </image>
                            <effect>
                               <ColorAdjust brightness="0.5" />
@@ -110,7 +110,7 @@
                      <children>
                         <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../images/gym.png" />
+                              <Image url="@../../../../images/gym.png" />
                            </image>
                            <effect>
                               <ColorAdjust />
@@ -175,7 +175,7 @@
                               </ImageView>
                               <ImageView fitHeight="46.0" fitWidth="56.0" layoutX="182.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../test/535188.png" />
+                                    <Image url="@../../../../images/535188.png" />
                                  </image>
                               </ImageView>
                            </children>
@@ -275,7 +275,7 @@
                               </ImageView>
                               <ImageView fitHeight="46.0" fitWidth="56.0" layoutX="197.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../test/114535%20-%20Copy.png" />
+                                    <Image url="@../../../../images/114535.png" />
                                  </image>
                               </ImageView>
                            </children>
@@ -326,7 +326,7 @@
                               </Label>
                               <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="205.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../../AppData/Local/Microsoft/Windows/GymApp%20extras/4257339.png" />
+                                    <Image url="@../../../../images/11954189.png" />
                                  </image>
                               </ImageView>
                            </children>
@@ -392,7 +392,7 @@
                      <children>
                         <ImageView fitHeight="230.0" fitWidth="305.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../test/WhatsApp%20Image%202024-05-07%20at%2013.56.47_6d4576d3.jpg" />
+                              <Image url="@../../../../images/WhatsApp%20Image%202024-05-07%20at%2013.56.47_6d4576d3.jpg" />
                            </image>
                            <HBox.margin>
                               <Insets />
@@ -401,31 +401,31 @@
                         <Separator orientation="VERTICAL" prefHeight="200.0" />
                         <ImageView fitHeight="230.0" fitWidth="305.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../test/WhatsApp%20Image%202024-05-07%20at%2013.56.47_7c2021a9.jpg" />
+                              <Image url="@../../../../images/WhatsApp%20Image%202024-05-07%20at%2013.56.47_7c2021a9.jpg" />
                            </image>
                         </ImageView>
                         <Separator orientation="VERTICAL" prefHeight="200.0" />
                         <ImageView fitHeight="230.0" fitWidth="305.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../test/WhatsApp%20Image%202024-05-07%20at%2013.56.47_ccd984bc.jpg" />
+                              <Image url="@../../../../images/WhatsApp%20Image%202024-05-07%20at%2013.56.47_ccd984bc.jpg" />
                            </image>
                         </ImageView>
                         <Separator orientation="VERTICAL" prefHeight="200.0" />
                         <ImageView fitHeight="230.0" fitWidth="340.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../test/WhatsApp%20Image%202024-05-07%20at%2014.18.29_6542a623.jpg" />
+                              <Image url="@../../../../images/WhatsApp%20Image%202024-05-07%20at%2014.18.29_96d9200d.jpg" />
                            </image>
                         </ImageView>
                         <Separator orientation="VERTICAL" prefHeight="200.0" />
                         <ImageView fitHeight="205.0" fitWidth="335.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../test/WhatsApp%20Image%202024-05-07%20at%2014.18.29_584636ac.jpg" />
+                              <Image url="@../../../../images/WhatsApp%20Image%202024-05-07%20at%2014.18.29_6542a623.jpg" />
                            </image>
                         </ImageView>
                         <Separator orientation="VERTICAL" prefHeight="200.0" />
                         <ImageView fitHeight="235.0" fitWidth="340.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../test/WhatsApp%20Image%202024-05-07%20at%2014.18.29_d33c8dee.jpg" />
+                              <Image url="@../../../../images/WhatsApp%20Image%202024-05-07%20at%2014.18.29_584636ac.jpg" />
                            </image>
                         </ImageView>
                      </children>
@@ -448,7 +448,7 @@
                            <children>
                               <ImageView fitHeight="134.0" fitWidth="136.0" layoutX="338.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../test/5508686.png" />
+                                    <Image url="@../../../../images/5508686.png" />
                                  </image>
                               </ImageView>
                               <Label layoutX="21.0" layoutY="14.0" text="NAME:" AnchorPane.leftAnchor="10.0" />
@@ -471,7 +471,7 @@
                            <children>
                               <ImageView fitHeight="134.0" fitWidth="136.0" layoutX="338.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../test/5508686.png" />
+                                    <Image url="@../../../../images/5508686.png" />
                                  </image>
                               </ImageView>
                               <Label layoutX="21.0" layoutY="14.0" text="NAME:" AnchorPane.leftAnchor="10.0" />

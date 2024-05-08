@@ -30,14 +30,10 @@ public class MembershipController {
             try {
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("OurGym.fxml"));
                 Parent root = loader.load();
-                Stage stage = new Stage();
-                stage.setResizable(false);
-                stage.setTitle("Mechanix Muscle Gym");
-                stage.setScene(new Scene(root));
-                stage.show();
-
                 Stage currentStage = (Stage) ourgymLink.getScene().getWindow();
-                currentStage.close();
+                currentStage.setScene(new Scene(root));
+                currentStage.setTitle("Mechanix Muscle Gym");
+                currentStage.setResizable(false);
             } 
             catch (IOException e) {
                 e.printStackTrace();
@@ -50,14 +46,10 @@ public class MembershipController {
             try {
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("EatHealthy.fxml"));
                 Parent root = loader.load();
-                Stage stage = new Stage();
-                stage.setResizable(false);
-                stage.setTitle("Mechanix Muscle Gym");
-                stage.setScene(new Scene(root));
-                stage.show();
-
                 Stage currentStage = (Stage) eathealthyLink.getScene().getWindow();
-                currentStage.close();
+                currentStage.setScene(new Scene(root));
+                currentStage.setTitle("Mechanix Muscle Gym");
+                currentStage.setResizable(false);
             } 
             catch (IOException e) {
                 e.printStackTrace();
@@ -67,16 +59,14 @@ public class MembershipController {
     @FXML
     public void handlemyprofileLink(ActionEvent event) {
             try {
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("Profiledashboard.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("profiledashboard.fxml"));
                 Parent root = loader.load();
-                Stage stage = new Stage();
-                stage.setResizable(false);
-                stage.setTitle("Mechanix Muscle Gym");
-                stage.setScene(new Scene(root));
-                stage.show();
-
+                //UserProfileController controller = loader.getController();
+                //controller.initData(currentUser);
                 Stage currentStage = (Stage) myprofileLink.getScene().getWindow();
-                currentStage.close();
+                currentStage.setScene(new Scene(root));
+                currentStage.setTitle("Mechanix Muscle Gym");
+                currentStage.setResizable(false);
             } 
             catch (IOException e) {
                 e.printStackTrace();
