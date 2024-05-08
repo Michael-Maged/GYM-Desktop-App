@@ -5,6 +5,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Hyperlink;
 import javafx.scene.control.Label;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import javafx.fxml.Initializable;
 
@@ -33,14 +35,23 @@ public class UserProfileController{
     @FXML
     private Label genderLabel;
 
-    //@FXML
-    //private Label bmrLabel;
+    @FXML
+    private Label pbfLabel;
 
-    //@FXML
-    //private Label pbfLabel;
+    @FXML
+    private Label bmrLabel;
 
-    //@FXML
-    //private Label mmpLabel;
+    @FXML
+    private Label pmmLabel;
+
+    @FXML
+    private TextField pmmField;
+
+    @FXML
+    private TextField pbfField;
+
+    @FXML
+    private Button editinfoButton;
 
     @FXML
     private Hyperlink ourgymLink;
@@ -50,6 +61,26 @@ public class UserProfileController{
 
     @FXML
     private Hyperlink membershipLink;
+
+    private UserProfile currentUser;
+
+    public void updateUser(UserProfile u){
+        currentUser = u;
+    }
+
+    @FXML
+    public void handleEdit(ActionEvent event){
+        currentUser.setMMP(Integer.valueOf(pmmField.getText()));
+        currentUser.setPBF(Double.valueOf(pbfField.getText()));
+
+        pmmLabel.setText(currentUser.getMMP() + "%");
+        pbfLabel.setText(currentUser.getBodyfatpercentage() + "%");
+
+        pmmField.clear();
+        pbfField.clear();
+
+        updateUserProfileInDatabase(currentUser);
+    }
 
     @FXML
     public void handleourgymLink(ActionEvent event) {
@@ -117,9 +148,9 @@ public class UserProfileController{
         ageLabel.setText(userProfile.getage() + "yrs");
         weightLabel.setText(userProfile.getweight() + " kg");
         genderLabel.setText((userProfile.getisMale() ? "Male" : "Female"));
-        //bmrLabel.setText("BMR: " + userProfile.getBMR());
-        //pbfLabel.setText("PBF: " + userProfile.getBodyfatpercentage() + "%");
-        //mmpLabel.setText("MMP: " + userProfile.getMMP() + "%");
+        bmrLabel.setText(userProfile.getBMR() + "kcal");
+        pbfLabel.setText(userProfile.getBodyfatpercentage() + "%");
+        pmmLabel.setText(userProfile.getMMP() + "%");
     }
 
     private void updateUserProfileInDatabase(UserProfile userProfile) {

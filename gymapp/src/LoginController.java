@@ -74,6 +74,7 @@ public class LoginController {
                 Parent root = loader.load();
                 UserProfileController controller = loader.getController();
                 controller.initData(validCredentials(email, password));
+                controller.updateUser(validCredentials(email, password));
                 Stage stage = new Stage();
                 stage.setResizable(false);
                 stage.setTitle("Mechanix Muscle Gym");

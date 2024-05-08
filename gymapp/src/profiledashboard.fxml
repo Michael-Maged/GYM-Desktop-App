@@ -324,7 +324,7 @@
                                 <Font name="System Bold Italic" size="18.0" />
                             </font>
                         </Label>
-                  <Button layoutX="207.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #000000;" text="Edit Info" textFill="WHITE">
+                  <Button fx:id="editinfoButton" layoutX="207.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleEdit" style="-fx-background-color: #000000;" text="Edit Info" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font></Button>
@@ -358,7 +358,7 @@
                   </VBox>
                   <VBox alignment="CENTER_RIGHT" layoutX="223.0" layoutY="52.0" prefHeight="148.0" prefWidth="122.0">
                      <children>
-                        <Label fx:id="bmr" alignment="CENTER" prefHeight="30.0" prefWidth="143.0" text="bmr">
+                        <Label fx:id="bmrLabel" alignment="CENTER" prefHeight="30.0" prefWidth="143.0" text="bmr">
                            <font>
                               <Font size="16.0" />
                            </font>
@@ -366,7 +366,7 @@
                               <Insets />
                            </VBox.margin>
                         </Label>
-                        <Label fx:id="pmm" alignment="CENTER" prefHeight="30.0" prefWidth="131.0" text="pmm" textAlignment="CENTER">
+                        <Label fx:id="pmmLabel" alignment="CENTER" prefHeight="30.0" prefWidth="131.0" text="pmm" textAlignment="CENTER">
                            <font>
                               <Font size="16.0" />
                            </font>
@@ -374,7 +374,7 @@
                               <Insets top="15.0" />
                            </VBox.margin>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="133.0" text="pbf" textAlignment="RIGHT">
+                        <Label fx:id="pbfLabel" alignment="CENTER" prefHeight="30.0" prefWidth="133.0" text="pbf" textAlignment="RIGHT">
                            <font>
                               <Font size="16.0" />
                            </font>
@@ -389,9 +389,8 @@
                         <Font size="15.0" />
                      </font>
                   </TextArea>
-                  <TextField layoutX="328.0" layoutY="69.0" prefHeight="26.0" prefWidth="78.0" promptText="New BMR" style="-fx-background-color: #FAFAFAFA; -fx-border-color: transparent;" />
-                  <TextField layoutX="328.0" layoutY="116.0" prefHeight="26.0" prefWidth="78.0" promptText="New PMM" style="-fx-background-color: #FAFAFAFA; -fx-border-color: transparent;" />
-                  <TextField layoutX="328.0" layoutY="160.0" prefHeight="26.0" prefWidth="78.0" promptText="New PBF" style="-fx-background-color: #FAFAFAFA; -fx-border-color: transparent;" />
+                  <TextField fx:id="pmmField" layoutX="328.0" layoutY="116.0" prefHeight="26.0" prefWidth="78.0" promptText="New PMM" style="-fx-background-color: #FAFAFAFA; -fx-border-color: transparent;" />
+                  <TextField fx:id="pbfField" layoutX="328.0" layoutY="160.0" prefHeight="26.0" prefWidth="78.0" promptText="New PBF" style="-fx-background-color: #FAFAFAFA; -fx-border-color: transparent;" />
                     </children>
                 </AnchorPane>
             </children>
