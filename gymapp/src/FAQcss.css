@@ -1,0 +1,26 @@
+.dash-primary-color {
+    -fx-background-color :#ffffff ;
+}
+.button-primay-color {
+    -fx-background-color :#ffffff ;    
+}
+.round {
+    -fx-border-radius : 50 ;
+    -fx-border-color :#D7D7D7 ; 
+}
+.selected {
+    -fx-background-color : #F4F3F3 ;
+}
+.mouse-moved :hover  {
+    -fx-background-color : #E4E4E4 ;
+}
+.transparent {
+    -fx-background-color: rgba(0,0,0,0) ; 
+    
+}
+.outlines {
+    -fx-background-color :#cccccc ;
+}
+.forsearch {
+    -fx-background-color :#000000 ;
+}
