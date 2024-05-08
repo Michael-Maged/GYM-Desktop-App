@@ -7,7 +7,6 @@ import javafx.scene.control.Hyperlink;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 import javafx.fxml.Initializable;
-
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -31,15 +30,13 @@ public class OurGymController {
             try {
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("profiledashboard.fxml"));
                 Parent root = loader.load();
-                Stage stage = new Stage();
-                stage.setResizable(false);
-                stage.setTitle("Mechanix Muscle Gym");
-                stage.setScene(new Scene(root));
-                stage.show();
-
+                //UserProfileController controller = loader.getController();
+                //controller.initData(currentUser);
                 Stage currentStage = (Stage) myprofileLink.getScene().getWindow();
-                currentStage.close();
-            } 
+                currentStage.setScene(new Scene(root));
+                currentStage.setTitle("Mechanix Muscle Gym");
+                currentStage.setResizable(false);
+            }
             catch (IOException e) {
                 e.printStackTrace();
             }
@@ -51,14 +48,10 @@ public class OurGymController {
             try {
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("EatHealthy.fxml"));
                 Parent root = loader.load();
-                Stage stage = new Stage();
-                stage.setResizable(false);
-                stage.setTitle("Mechanix Muscle Gym");
-                stage.setScene(new Scene(root));
-                stage.show();
-
                 Stage currentStage = (Stage) eathealthyLink.getScene().getWindow();
-                currentStage.close();
+                currentStage.setScene(new Scene(root));
+                currentStage.setTitle("Mechanix Muscle Gym");
+                currentStage.setResizable(false);
             } 
             catch (IOException e) {
                 e.printStackTrace();
@@ -70,14 +63,10 @@ public class OurGymController {
             try {
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("Membership.fxml"));
                 Parent root = loader.load();
-                Stage stage = new Stage();
-                stage.setResizable(false);
-                stage.setTitle("Mechanix Muscle Gym");
-                stage.setScene(new Scene(root));
-                stage.show();
-
                 Stage currentStage = (Stage) membershipLink.getScene().getWindow();
-                currentStage.close();
+                currentStage.setScene(new Scene(root));
+                currentStage.setTitle("Mechanix Muscle Gym");
+                currentStage.setResizable(false);
             } 
             catch (IOException e) {
                 e.printStackTrace();
