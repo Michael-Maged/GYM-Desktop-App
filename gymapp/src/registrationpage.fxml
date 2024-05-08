@@ -19,7 +19,7 @@
             <TextField fx:id="emailField" layoutX="76.0" layoutY="261.0" promptText="Email" style="-fx-background-color: #FAFAFA; -fx-border-color: transparent; -fx-background-radius: 10;" />
             <ImageView fitHeight="110.0" fitWidth="110.0" layoutX="97.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../images/profile.png" />
+                  <Image url="@../../../../images/5508686.png" />
                </image>
             </ImageView>
             <Label layoutX="97.0" layoutY="156.0" text="REGISTER">
@@ -53,7 +53,7 @@
          <children>
             <ImageView fitHeight="587.0" fitWidth="419.0" layoutX="-28.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../images/keepgoing.jpg" />
+                  <Image url="@../../../../images/keepgoing.jpg" />
                </image>
             </ImageView>
          </children>

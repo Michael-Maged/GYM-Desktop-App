@@ -24,7 +24,7 @@
                      <children>
                         <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../images/profile.png" />
+                              <Image url="@../../../../images/5508686.png" />
                            </image>
                            <effect>
                               <ColorAdjust brightness="0.5" />
@@ -54,7 +54,7 @@
                      <children>
                         <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../images/food.png" />
+                              <Image url="@../../../../images/food.png" />
                            </image>
                            <effect>
                               <ColorAdjust brightness="0.5" />
@@ -81,7 +81,7 @@
                      <children>
                         <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../images/member.png" />
+                              <Image url="@../../../../images/member.png" />
                            </image>
                            <effect>
                               <ColorAdjust />
@@ -108,7 +108,7 @@
                      <children>
                         <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../images/gym.png" />
+                              <Image url="@../../../../images/gym.png" />
                            </image>
                            <effect>
                               <ColorAdjust brightness="0.5" />
@@ -155,7 +155,7 @@
                               <AnchorPane prefHeight="46.0" prefWidth="64.0" />
                               <ImageView fitHeight="58.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../test/6098680.png" />
+                                    <Image url="@../../../../images/6098680.png" />
                                  </image>
                               </ImageView>
                               <Label prefHeight="58.0" prefWidth="176.0" text="\$50">
@@ -197,7 +197,7 @@
                            <children>
                               <ImageView fitHeight="54.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../test/185590.png" />
+                                    <Image url="@../../../../images/185590.png" />
                                  </image>
                               </ImageView>
                               <Label prefHeight="58.0" prefWidth="176.0" text="\$100">
@@ -253,7 +253,7 @@
                            <children>
                               <ImageView fitHeight="57.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../test/3525876.png" />
+                                    <Image url="@../../../../images/3525876.png" />
                                  </image>
                               </ImageView>
                               <Label prefHeight="58.0" prefWidth="176.0" text="\$150">
@@ -302,7 +302,7 @@
                            <children>
                               <ImageView fitHeight="46.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../test/11438089.png" />
+                                    <Image url="@../../../../images/11438089.png" />
                                  </image>
                               </ImageView>
                               <Label prefHeight="58.0" prefWidth="176.0" text="\$200">
@@ -374,7 +374,7 @@
                            <children>
                               <ImageView fitHeight="50.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../test/10049531.png" />
+                                    <Image url="@../../../../images/10049531.png" />
                                  </image>
                               </ImageView>
                               <Label prefHeight="58.0" prefWidth="176.0" text="\$500">
@@ -475,7 +475,7 @@
                         <TextField layoutX="27.0" layoutY="213.0" prefHeight="26.0" prefWidth="182.0" text="CVV" />
                         <ImageView fitHeight="33.0" fitWidth="36.0" layoutX="223.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../test/9334601.png" />
+                              <Image url="@../../../../images/9334601.png" />
                            </image>
                         </ImageView>
                         <Label layoutX="34.0" layoutY="304.0" prefHeight="18.0" prefWidth="221.0" text="Hope you enjoy your journey with us " />
